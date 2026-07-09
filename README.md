@@ -69,22 +69,75 @@ Example features include:
 
 ## 📈 Machine Learning Models
 
-- Random Forest Classifier
-- Random Forest Regressor
+### Classification Model
 
----
+- Algorithm: Random Forest Classifier
+
+| Metric | Value |
+|---------|------:|
+| Accuracy | **93.7%** |
+| Precision (Weighted Avg) | **0.96** |
+| Recall (Weighted Avg) | **0.94** |
+| F1-Score (Weighted Avg) | **0.95** |
+
+### Regression Model
+
+- Algorithm: Random Forest Regressor
+
+| Metric | Value |
+|---------|------:|
+| R² Score | **0.902** |
+| MAE | **8.43** |
+| MSE | **115.10** |
+| RMSE | **10.73** |
 
 ## 📷 Visualizations
 
-The project includes:
+### Correlation Heatmap
 
-- Correlation Heatmap
-- Boxplots
-- Scatter Plots
-- Defect Distribution
-- Predicted vs Actual Comparison
+![Correlation Heatmap](images/corr.png)
 
 ---
+
+### Classification Feature Importance
+
+![Classification Feature Importance](images/cls_feature_imp.png)
+
+---
+
+### Regression Feature Importance
+
+![Regression Feature Importance](images/reg_feature_imp.png)
+
+---
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+---
+
+### Workload vs Power Usage
+
+![Workload vs Power Usage](images/power_vs_work.png)
+
+---
+
+### Material Type vs Defect Status
+
+![Material Type vs Defect Status](images/Material%20type%20vs%20Defect%20status.png)
+
+---
+
+### Material Type and Humidity vs Defect Status
+
+![Material Type and Humidity vs Defect Status](images/Material%20type%20and%20Humidity%20vs%20Defect%20status.png)
+
+---
+
+### Shift vs Defect Status
+
+![Shift vs Defect Status](images/Shift%20vs%20Defect%20status.png)
 
 ## 📌 Future Improvements
 
